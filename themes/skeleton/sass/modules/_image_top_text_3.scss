@@ -1,0 +1,25 @@
+.image-top-text-3{
+	p{
+		padding:0;
+	}
+	@include breakpoint(mobile){
+		.flex-col:nth-child(1){
+			order:1;
+		}
+		.flex-col:nth-child(2){
+			order:3;
+		}
+		.flex-col:nth-child(3){
+			order:5;
+		}
+		.flex-col:nth-child(4){
+			order:2;
+		}
+		.flex-col:nth-child(5){
+			order:4;
+		}
+		.flex-col:nth-child(6){
+			order:6;
+		}
+	}
+}

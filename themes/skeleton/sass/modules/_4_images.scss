@@ -1,0 +1,10 @@
+.images-4{
+	.flex-container .flex-col{
+		@include breakpoint(tablet){
+			margin-bottom:0;
+		}
+		@include breakpoint(mobile){
+			margin-bottom:0;
+		}
+	}
+}

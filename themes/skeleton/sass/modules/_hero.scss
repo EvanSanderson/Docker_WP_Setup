@@ -1,0 +1,65 @@
+.hero-banner{
+	color:#fff;
+	position:relative;
+	z-index:1;
+	font-size:1rem;
+	padding:4rem 0;
+
+	&.long_hero{
+		height:93vh;
+
+		.flex-container{
+			align-items:center;
+			height:90vh;
+
+		}
+	}
+
+	&.short_hero{
+		height:65vh;
+		.flex-container{
+			align-items:center;
+			height:60vh;
+
+		}
+		.flex-padding{
+			padding-top:5rem;
+		}
+	}
+
+	.flex-padding{
+		padding-top:0rem;
+	}
+
+
+	.page-section{
+		color:rgba(255,255,255,.9);
+		text-transform:uppercase;
+		font-weight:500;
+	}
+
+	.hero-links{
+		margin-bottom:10px;
+		a{
+			font-size:1.4rem;
+			font-weight:200;
+			padding:5px 0;
+			display:block;
+			position:relative;
+		}
+	}
+	a{
+		color:$lightprimary;
+	}
+
+	&:after{
+		content:"";
+		@include grad(rgba(0,0,0,0.5),rgba(0,0,0,0));
+		background-size: cover;
+	    width: 100%;
+	    height: 100%;
+	    position: absolute;
+	    top: 0;
+	    z-index: -1;
+	}
+}

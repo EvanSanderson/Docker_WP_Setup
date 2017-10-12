@@ -1,0 +1,83 @@
+h1,h2,h3,h4,h5{
+	@include primaryfont();
+	line-height:120%;
+	@include transition(all 0.3s ease);
+
+	&.lightprimary{
+		color:$lightprimary;
+	}
+
+	&.darkprimary{
+		color:$primarycolor;
+	}
+}
+
+h1{
+	font-size:3.5rem;
+	@include headersfont();
+	margin-bottom:1rem;
+
+	@include breakpoint(mobile){
+		font-size:2.5rem;
+	}
+}
+h2{
+	color:$primarycolor;
+	font-weight:400;
+	font-size: 2.5rem;
+    margin: 0 0 1rem;
+    padding-bottom: 1rem;
+
+    @include breakpoint(mobile){
+		font-size:2rem;
+	}
+}
+h3{
+	font-size:2rem;
+	color:$primarycolor;
+	margin: .75rem 0;
+}
+h4, h4 p{
+	font-size:1.4rem;
+	@include primaryfont();
+	font-weight:500;
+	margin:.65rem 0;
+}
+h5{
+	font-size:1.2rem;
+	font-weight:500;
+	margin: .5rem 0;
+}
+
+h6{
+	text-transform: uppercase;
+    font-size: .9rem;
+    color: #aaa;
+    font-weight: 500;
+    margin: .3rem 0;
+}
+
+label{
+	color:$primarycolor;
+	font-weight:bold;
+}
+
+p{
+	color: #777;
+    @include primaryfont();
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding:.5rem 0;
+    @include breakpoint(mobile){
+    	font-size:1rem;
+    }
+}
+
+a{
+	text-decoration:none;
+	color:$primarycolor;
+	@include transition(all 0.3s ease);
+	&:hover{
+		opacity:0.9;
+	}
+}

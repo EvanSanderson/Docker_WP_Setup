@@ -1,0 +1,60 @@
+form, form.form1{
+	input[type="text"]{
+		border:1px solid #eee !important;
+		@include primaryfont();
+	}
+
+	input[type="submit"],.button-submit{
+		color: #ffffff;
+	    cursor: pointer;
+	    display: inline-block;
+	    background: $primarycolor !important;
+	    padding: 10px 20px 9px;
+	    font-size: 1rem;
+	    border: 1px solid transparent;
+	    margin: 0;
+	    text-transform: uppercase;
+	    font-weight: 200;
+	    @include primaryfont();
+	}
+
+	.wdform_row{
+		width:100%;
+	}
+
+	.wdform_section{
+		width:100%;
+	}
+
+	.wdform-field{
+		display:block !important;
+		width:100% !important;
+	}
+
+	.wdform-element-section{
+		width:100% !important;
+	}
+
+	.wdform_column{
+		width:100%;
+	}
+
+	.wdform-required,.wdform-label{
+		display:none;
+	}
+
+	&#form1{
+		input[type="text"],textarea{
+			border:1px solid #eee;
+			padding:20px 10px !important;
+			font-family: initial;
+    		font-size: 1.2rem !important;
+		}
+		textarea{
+			padding-top:10px !important;
+			height:150px !important;
+		}
+	}
+
+
+}

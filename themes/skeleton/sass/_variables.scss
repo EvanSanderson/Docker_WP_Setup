@@ -1,0 +1,41 @@
+/*---- Fonts -------*/
+$primaryfont: ingra, sans-serif;
+$headersfont: ingra, sans-serif;
+
+/*---- Color -------*/
+$primarycolor:#ac2eff;
+$secondarycolor:#1ff042;
+
+$lightprimary:#CA79FF;
+$darkprimary:#8C23D1;
+
+$darkgray:#333;
+
+$textgray:#9B9B9B;
+
+.lightblue, .lightblue p{
+	color:rgba(255,255,255,0.85);
+}
+.white, .white p{
+	color:#fff;
+}
+hr.white{
+	background:rgba(255,255,255,.8);
+}
+
+.orange{
+	color:$secondarycolor;
+}
+
+.darkprimary{
+	color:$primarycolor;
+}
+
+.darkprimary-bg{
+	background:$primarycolor;
+	color:#fff;
+}
+
+.lighterblue-bg{
+	background:$lightprimary;
+}

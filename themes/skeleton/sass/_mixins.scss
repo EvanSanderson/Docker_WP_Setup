@@ -1,0 +1,52 @@
+@mixin breakpoint($point) {
+	@if $point == verylarge {
+		@media only screen and (min-width : 1500px) { @content; }
+	}
+	@if $point == tablet {
+		@media only screen and (max-width : 1100px) { @content; }
+	}
+	@if $point == mobile {
+		@media only screen and (max-width : 720px) { @content; }
+	}
+}
+
+@mixin calc($property, $expression) {
+	#{$property}: -moz-calc(#{$expression});
+	#{$property}: -webkit-calc(#{$expression});
+	#{$property}: calc(#{$expression});
+}
+
+@mixin grad($top,$bottom) {
+    background: $bottom; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($top, $bottom); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($top, $bottom); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($top, $bottom); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($top, $bottom); /* Standard syntax */
+}
+
+@mixin transition($transition) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+
+@mixin transform($transform) {
+	-webkit-transform: $transform;  /* Saf3.1+, Chrome */
+	     -moz-transform: $transform;  /* FF3.5+ */
+	      -ms-transform: $transform;  /* IE9 */
+	       -o-transform: $transform;  /* Opera 10.5+ */
+	          transform: $transform;
+}
+
+@mixin primaryfont(){
+	font-family: $primaryfont;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@mixin headersfont(){
+	font-family: $headersfont;
+	font-style: normal;
+	font-weight: 900;
+}

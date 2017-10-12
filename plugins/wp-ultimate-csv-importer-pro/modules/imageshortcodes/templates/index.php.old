@@ -1,0 +1,5 @@
+<?php
+ /* Put your code here */ 
+print('<pre>'); print_r($skinnyData); print('</pre>');
+?>
+

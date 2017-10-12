@@ -1,0 +1,30 @@
+{
+  "name": "skeleton",
+  "version": "0.0.2",
+  "description": "Skeleton modular WP system to be used for the upcoming projects",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shorouk Mansour <smansour@nclud.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nclud/skeleton"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-file-include": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.9.1"
+  },
+  "dependencies": {
+    "event-stream": "^3.3.4",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-usemin": "^0.3.27"
+  }
+}

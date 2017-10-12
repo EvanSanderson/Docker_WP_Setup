@@ -1,0 +1,169 @@
+.the-main-content{
+	display:flex;
+	flex-wrap:wrap;
+	.the-content{
+		color: #888;
+		@include primaryfont();
+		font-size: 1.2rem;
+		font-weight: 500;
+
+		a{
+			color:$primarycolor;
+		}
+
+		ol,ul{
+			margin-left:1.5rem;
+			padding: .5rem 0;
+			li{
+				padding-left:.5rem;
+			}
+		}
+		ol{
+			list-style-type: decimal;
+		}
+		ul{
+			list-style:initial;
+		}
+		li{
+			font-weight:300;
+			color:#777;
+			padding:.1rem 0;
+		}
+
+		table{
+			border:1px solid #ccc;
+		    width:100%;
+
+			td{
+				border:1px solid #ccc;
+				padding:1rem;
+			}
+		}
+
+		strong{
+			font-weight:600;
+		}
+		em{
+			font-style:italic;
+		}
+
+		.alignleft{
+			float:left;
+			margin:0 20px 20px 0;
+		}
+		.alignright{
+			float:right;
+			margin:0 0px 20px 20px;
+		}
+	}
+
+	h2{
+		margin-bottom:0;
+	}
+
+	img{
+		max-width:100%;
+		height:auto;
+		margin:1rem 0;
+	}
+}
+.content-container{
+	max-width:60rem;
+	margin:0 auto;
+	padding:4rem 8rem 8rem;
+	border-bottom:1px solid $lightprimary;
+
+	@include breakpoint(tablet){
+		padding:4rem;
+	}
+
+	@include breakpoint(mobile){
+		padding:2rem;
+	}
+
+	&.with-sidebar{
+		max-width:none;
+		width:70%;
+		@include breakpoint(mobile){
+			width:100%;
+		}
+	}
+
+}
+
+.meta{
+	margin:2rem 0;
+}
+.category,.tags{
+	display: inline-block;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 500;
+    padding:.5rem 0;
+
+    h6,ul,li a,a{
+    	display:inline-block;
+    	text-transform: uppercase;
+	    font-size: .9rem;
+	    font-weight: 500;
+	    margin-right:2rem;
+
+    }
+}
+
+.sidebar-right{
+	width:30%;
+	padding-bottom:4rem;
+
+	@include breakpoint(mobile){
+		width:100%;
+		padding:4rem 2rem;
+	}
+
+	h2{
+		margin:0;
+		padding:0;
+		font-size:2rem;
+		font-family:freight-text-pro,serif;
+	}
+
+	h6{
+		border-bottom:2px solid #ddd;
+		padding-bottom:1rem;
+		margin-bottom:1rem;
+	}
+
+	hr{
+		background:$darkgray;
+		opacity:.1;
+		height:2px;
+	}
+	li{
+		list-style:none;
+		margin:5px 0;
+		display:block;
+		a{
+			padding:5px 0;
+			font-size:1.2rem;
+			margin:0px 0;
+			display:inline-block;
+			opacity:.5;
+			border-bottom:2px solid transparent;
+		}
+
+		&.current_page_item,&:hover{
+			a,ul a:hover{
+				border-bottom:2px solid;
+				opacity:1;
+			}
+			ul a{
+				opacity:.5;
+				border-bottom:2px solid transparent;
+			}
+		}
+	}
+}
+
+.with-label{
+	margin:0 0 1rem;
+}

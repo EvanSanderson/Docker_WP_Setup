@@ -1,0 +1,11 @@
+.text-image{
+	padding:0;
+	@include breakpoint(mobile){
+		.flex-col:nth-child(1){
+			order:2;
+		}
+		.flex-col:nth-child(2){
+			order:1;
+		}
+	}
+}

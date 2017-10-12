@@ -1,0 +1,1936 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-ultimate-csv-importer-pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-07 22:40+0530\n"
+"PO-Revision-Date: 2015-05-07 22:41+0530\n"
+"Last-Translator: anitha <anithab@smackcoders.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: templates/500.php:1
+msgid "Internal Server Error"
+msgstr ""
+
+#: templates/500.php:2
+msgid "Something went wrong on the server."
+msgstr ""
+
+#: templates/dynamic_content.php:8
+msgid "HINT: Specify WP-Fields name between the {} and concatenate with +. Example: {post_title}+{ } +{post_excerpt}+{post_slug}"
+msgstr ""
+
+#: templates/dynamic_content.php:9
+#: templates/Addcustomfields.php:70
+#: templates/static_content.php:11
+#: templates/static_content.php:20
+#: templates/static_content.php:28
+#: templates/formula_content.php:10
+msgid "Close"
+msgstr ""
+
+#: templates/Addcustomfields.php:34
+msgid "[Name::"
+msgstr ""
+
+#: templates/Addcustomfields.php:38
+msgid "-- Select --"
+msgstr ""
+
+#: templates/Addcustomfields.php:50
+msgid "--Select--"
+msgstr ""
+
+#: templates/Addcustomfields.php:65
+msgid "Show More"
+msgstr ""
+
+#: templates/Addcustomfields.php:69
+msgid "HINT: Specify the OPTIONS with COMMA operator."
+msgstr ""
+
+#: templates/Addcustomfields.php:69
+msgid "Example: Red,Green,Blue"
+msgstr ""
+
+#: templates/Addcustomfields.php:78
+msgid "Register"
+msgstr ""
+
+#: templates/Addcustomfields.php:79
+msgid "Delete"
+msgstr ""
+
+#: templates/Addcustomfields.php:81
+msgid "Cancel"
+msgstr ""
+
+#: templates/static_content.php:10
+msgid "HINT: Specify the CSV header to be added in between the curley braces({ })."
+msgstr ""
+
+#: templates/static_content.php:10
+msgid "Example: {post_title}"
+msgstr ""
+
+#: templates/static_content.php:19
+msgid "HINT: Specify CSV header between the {} and concatenate with +. Example: {post_title}+{ } +{post_excerpt}+{post_slug}"
+msgstr ""
+
+#: templates/static_content.php:27
+msgid "HINT: Specify operator(+,-,*,/) and CSV header as operand in MATH() within {}.Example: MATH ({product_quantity}/{discount_price})"
+msgstr ""
+
+#: templates/replace_images.php:13
+msgid "Advance Media Handling"
+msgstr ""
+
+#: templates/replace_images.php:18
+msgid "upload"
+msgstr ""
+
+#: templates/menu.php:98
+msgid "Dashboard"
+msgstr ""
+
+#: templates/menu.php:106
+msgid "Posts"
+msgstr ""
+
+#: templates/menu.php:109
+msgid "Pages"
+msgstr ""
+
+#: templates/menu.php:112
+msgid "Custom Posts"
+msgstr ""
+
+#: templates/menu.php:115
+msgid "Custom Taxonomy"
+msgstr ""
+
+#: templates/menu.php:118
+msgid "Customer Reviews"
+msgstr ""
+
+#: templates/menu.php:121
+msgid "Comments"
+msgstr ""
+
+#: templates/menu.php:124
+msgid "Users"
+msgstr ""
+
+#: templates/menu.php:127
+msgid "Categories/Tags"
+msgstr ""
+
+#: templates/menu.php:130
+msgid "Eshop"
+msgstr ""
+
+#: templates/menu.php:136
+msgid "Wp e-commerce"
+msgstr ""
+
+#: templates/menu.php:139
+msgid "Market Press"
+msgstr ""
+
+#: templates/menu.php:146
+msgid "Woocommerce"
+msgstr ""
+
+#: templates/menu.php:149
+msgid "Products Import"
+msgstr ""
+
+#: templates/menu.php:150
+msgid "Variations Import"
+msgstr ""
+
+#: templates/menu.php:151
+msgid "Orders Import"
+msgstr ""
+
+#: templates/menu.php:152
+msgid "Refunds Import"
+msgstr ""
+
+#: templates/menu.php:153
+msgid "Coupons Import"
+msgstr ""
+
+#: templates/menu.php:160
+msgid "File Manager"
+msgstr ""
+
+#: templates/menu.php:161
+msgid "Smart Schedule"
+msgstr ""
+
+#: templates/menu.php:162
+msgid "Templates"
+msgstr ""
+
+#: templates/menu.php:163
+msgid "Image Shortcodes"
+msgstr ""
+
+#: templates/menu.php:164
+msgid "Log Manager"
+msgstr ""
+
+#: templates/menu.php:167
+msgid "Export"
+msgstr ""
+
+#: templates/menu.php:168
+msgid "Settings"
+msgstr ""
+
+#: templates/menu.php:169
+msgid "Support"
+msgstr ""
+
+#: templates/formula_content.php:9
+msgid "HINT: Specify operator(+,-,*,/) and WP Fields as operand in MATH(). Operand should specified in {}. Example: MATH({product_quantity}/{discount_price})"
+msgstr ""
+
+#: templates/404.php:1
+msgid "Not Found"
+msgstr ""
+
+#: templates/404.php:2
+msgid "The requested URL was not found."
+msgstr ""
+
+#: upgrade/migration_v4.x.php:3
+#: upgrade/migration_v4.1.0.php:3
+msgid "Warning: This is 4.1.0 version, dont try in live instance and take proper backup to proceed upgrading."
+msgstr ""
+
+#: upgrade/migration_v4.x.php:4
+#: upgrade/migration_v4.1.0.php:4
+msgid "Upgrade to Latest Version 4.1.0"
+msgstr ""
+
+#: upgrade/migration_v4.x.php:5
+#: upgrade/migration_v4.0.0.php:5
+#: upgrade/migration_v3.5.3.php:4
+#: upgrade/migration_v3.6.php:4
+#: upgrade/migration_v4.1.0.php:5
+msgid "Click Here"
+msgstr ""
+
+#: upgrade/migration_v4.x.php:8
+#: upgrade/migration_v4.0.0.php:8
+#: upgrade/migration_v3.5.3.php:8
+#: upgrade/migration_v3.6.php:8
+#: upgrade/migration_v4.1.0.php:8
+msgid "Upgrade is inprogress..."
+msgstr ""
+
+#: upgrade/migration_v4.x.php:9
+#: upgrade/migration_v4.0.0.php:9
+#: upgrade/migration_v3.5.3.php:10
+#: upgrade/migration_v3.6.php:10
+#: upgrade/migration_v4.1.0.php:9
+msgid "Goto Plugin Settings"
+msgstr ""
+
+#: upgrade/migration_v4.0.0.php:3
+msgid "Warning: This is 4.0 version, dont try in live instance and take proper backup to proceed upgrading."
+msgstr ""
+
+#: upgrade/migration_v4.0.0.php:4
+msgid "Upgrade to Latest Version 4.0"
+msgstr ""
+
+#: upgrade/migration_v3.5.3.php:3
+msgid "Upgrade to Latest Version 3.5.3"
+msgstr ""
+
+#: upgrade/migration_v3.6.php:3
+msgid "Upgrade to Latest Version 3.6"
+msgstr ""
+
+#: modules/filemanager/actions/actions.php:208
+msgid "From Date"
+msgstr ""
+
+#: modules/filemanager/actions/actions.php:209
+msgid "To Date"
+msgstr ""
+
+#: modules/filemanager/actions/actions.php:210
+msgid "File Name"
+msgstr ""
+
+#: modules/filemanager/actions/actions.php:223
+msgid "Filter"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:89
+#: modules/logmanager/templates/index.php:101
+msgid "Download"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:90
+msgid ""
+"Download\n"
+"\t\tall"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:92
+msgid ""
+"Delete\n"
+"\t\tfile"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:95
+msgid "Delete files and records"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:96
+msgid "Trash"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:97
+msgid "Restore"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:98
+msgid "Delete all"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:99
+#: modules/imageshortcodes/templates/index.php:168
+msgid "Update"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:110
+msgid "Download All"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:112
+msgid "Trash All Records"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:114
+msgid "Restore Trashed Records"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:116
+msgid "Delete All Records"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:118
+msgid "Delete Files and Records"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:132
+msgid "Type"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:133
+msgid "Imported On"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:134
+msgid "Updated On"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:135
+msgid "Version"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:136
+#: modules/imageshortcodes/templates/index.php:135
+#: modules/schedulemapping/templates/index.php:92
+msgid "Action"
+msgstr ""
+
+#: modules/filemanager/templates/index.php:324
+msgid "No File Imports Yet"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:15
+#: modules/logmanager/templates/index.php:20
+#: modules/schedulemapping/templates/index.php:15
+msgid "No Templates Generated yet"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:20
+#: modules/logmanager/templates/index.php:25
+#: modules/schedulemapping/templates/index.php:20
+msgid "Enter page number correctly"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:27
+#: modules/logmanager/templates/index.php:31
+msgid "Template has been saved successfully!"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:36
+#: modules/logmanager/templates/index.php:40
+msgid "Error while saving template."
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:90
+msgid "Upload your inline image"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:108
+msgid "Image is getting populated!!"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:109
+msgid "Processing"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:128
+#: modules/logmanager/templates/index.php:94
+#: modules/schedulemapping/templates/index.php:86
+msgid "#"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:129
+#: modules/logmanager/templates/index.php:95
+msgid "Event Key"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:130
+#: modules/logmanager/templates/index.php:96
+#: modules/schedulemapping/templates/index.php:88
+msgid "CSV Name"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:131
+msgid "Mode of Shortcode"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:132
+#: modules/logmanager/templates/index.php:97
+msgid "Module"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:133
+msgid "No of Shortcodes"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:134
+#: modules/export/templates/index.php:117
+msgid "Status"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:158
+msgid "Success"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:160
+msgid "Continue"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:162
+msgid "Populate"
+msgstr ""
+
+#: modules/imageshortcodes/templates/index.php:176
+#: modules/logmanager/templates/index.php:130
+#: modules/schedulemapping/templates/index.php:135
+msgid "No Results Found"
+msgstr ""
+
+#: modules/logmanager/templates/index.php:98
+msgid "Inserted"
+msgstr ""
+
+#: modules/logmanager/templates/index.php:99
+msgid "Updated"
+msgstr ""
+
+#: modules/logmanager/templates/index.php:100
+msgid "Skipped"
+msgstr ""
+
+#: modules/logmanager/templates/index.php:122
+msgid "Download Now"
+msgstr ""
+
+#: modules/export/templates/index.php:18
+msgid "Check"
+msgstr ""
+
+#: modules/export/templates/index.php:18
+msgid "here"
+msgstr ""
+
+#: modules/export/templates/index.php:18
+msgid "your system configuration before proceeding the export. It may help to prevent from facing server configuration issues."
+msgstr ""
+
+#: modules/export/templates/index.php:22
+msgid "Export Data With Advanced Filters"
+msgstr ""
+
+#: modules/export/templates/index.php:32
+msgid "Select your module to export the data"
+msgstr ""
+
+#: modules/export/templates/index.php:34
+msgid "Post"
+msgstr ""
+
+#: modules/export/templates/index.php:38
+msgid "Page"
+msgstr ""
+
+#: modules/export/templates/index.php:39
+msgid "Wp-Commerce"
+msgstr ""
+
+#: modules/export/templates/index.php:57
+msgid "Woo-Commerce"
+msgstr ""
+
+#: modules/export/templates/index.php:60
+msgid "Category"
+msgstr ""
+
+#: modules/export/templates/index.php:61
+msgid "Marketpress"
+msgstr ""
+
+#: modules/export/templates/index.php:64
+msgid "Tags"
+msgstr ""
+
+#: modules/export/templates/index.php:89
+msgid "Proceed"
+msgstr ""
+
+#: modules/export/templates/index.php:102
+msgid "To export data based on the filters"
+msgstr ""
+
+#: modules/export/templates/index.php:104
+msgid "Export data for the specific period"
+msgstr ""
+
+#: modules/export/templates/index.php:106
+msgid "Start From"
+msgstr ""
+
+#: modules/export/templates/index.php:108
+msgid "End To"
+msgstr ""
+
+#: modules/export/templates/index.php:115
+msgid "Export data with the specific status"
+msgstr ""
+
+#: modules/export/templates/index.php:119
+msgid "All"
+msgstr ""
+
+#: modules/export/templates/index.php:120
+msgid "Publish"
+msgstr ""
+
+#: modules/export/templates/index.php:121
+msgid "Sticky"
+msgstr ""
+
+#: modules/export/templates/index.php:122
+msgid "Private"
+msgstr ""
+
+#: modules/export/templates/index.php:123
+msgid "Protected"
+msgstr ""
+
+#: modules/export/templates/index.php:124
+msgid "Draft"
+msgstr ""
+
+#: modules/export/templates/index.php:125
+msgid "Pending"
+msgstr ""
+
+#: modules/export/templates/index.php:131
+msgid "Export data by specific authors"
+msgstr ""
+
+#: modules/export/templates/index.php:133
+msgid "Authors"
+msgstr ""
+
+#: modules/export/templates/index.php:136
+msgid "Al"
+msgstr ""
+
+#: modules/export/templates/index.php:145
+msgid "Export data based on specific exclusions"
+msgstr ""
+
+#: modules/export/templates/index.php:162
+msgid "Core Fields: "
+msgstr ""
+
+#: modules/export/templates/index.php:170
+#: modules/export/templates/index.php:234
+#: modules/export/templates/index.php:294
+#: modules/export/templates/index.php:354
+#: modules/export/templates/index.php:415
+#: modules/export/templates/index.php:475
+#: modules/export/templates/index.php:535
+#: modules/export/templates/index.php:596
+#: modules/export/templates/index.php:656
+#: modules/export/templates/index.php:717
+#: modules/export/templates/index.php:778
+#: modules/export/templates/index.php:839
+#: modules/export/templates/index.php:900
+msgid "Check All"
+msgstr ""
+
+#: modules/export/templates/index.php:172
+#: modules/export/templates/index.php:236
+#: modules/export/templates/index.php:296
+#: modules/export/templates/index.php:356
+#: modules/export/templates/index.php:417
+#: modules/export/templates/index.php:477
+#: modules/export/templates/index.php:537
+#: modules/export/templates/index.php:598
+#: modules/export/templates/index.php:658
+#: modules/export/templates/index.php:719
+#: modules/export/templates/index.php:780
+#: modules/export/templates/index.php:841
+#: modules/export/templates/index.php:902
+msgid "/ Uncheck All"
+msgstr ""
+
+#: modules/export/templates/index.php:213
+#: modules/export/templates/index.php:455
+#: modules/export/templates/index.php:758
+#: modules/export/templates/index.php:819
+#: modules/export/templates/index.php:880
+#: modules/export/templates/index.php:940
+msgid "No fields Found!"
+msgstr ""
+
+#: modules/export/templates/index.php:228
+msgid "CCTM Custom Fields: "
+msgstr ""
+
+#: modules/export/templates/index.php:288
+msgid "ACF Custom Fields: "
+msgstr ""
+
+#: modules/export/templates/index.php:348
+msgid "ACF Repeater Custom Fields: "
+msgstr ""
+
+#: modules/export/templates/index.php:409
+msgid "Types Custom Fields: "
+msgstr ""
+
+#: modules/export/templates/index.php:469
+msgid "PODS Custom Fields: "
+msgstr ""
+
+#: modules/export/templates/index.php:529
+msgid "All in One SEO Fields: "
+msgstr ""
+
+#: modules/export/templates/index.php:590
+msgid "WordPress Yoast SEO Fields: "
+msgstr ""
+
+#: modules/export/templates/index.php:650
+msgid "Other WP Custom Fields: "
+msgstr ""
+
+#: modules/export/templates/index.php:711
+msgid "WP Member Fields: "
+msgstr ""
+
+#: modules/export/templates/index.php:772
+msgid "Ecommerce Meta Fields: "
+msgstr ""
+
+#: modules/export/templates/index.php:833
+msgid "WP-eCommerce Custom Fields: "
+msgstr ""
+
+#: modules/export/templates/index.php:894
+msgid "Terms & Taxonomies: "
+msgstr ""
+
+#: modules/export/templates/index.php:968
+msgid "File Name: "
+msgstr ""
+
+#: modules/export/templates/index.php:988
+msgid "<< Back"
+msgstr ""
+
+#: modules/schedulemapping/actions/actions.php:150
+#: modules/schedulemapping/templates/index.php:87
+msgid "Template Name"
+msgstr ""
+
+#: modules/schedulemapping/templates/index.php:26
+msgid "Scheduled successfully!"
+msgstr ""
+
+#: modules/schedulemapping/templates/index.php:35
+msgid "Error while scheduling."
+msgstr ""
+
+#: modules/schedulemapping/templates/index.php:89
+msgid "Scheduled Time"
+msgstr ""
+
+#: modules/schedulemapping/templates/index.php:90
+msgid "Created Time"
+msgstr ""
+
+#: modules/schedulemapping/templates/index.php:91
+msgid "Is Run"
+msgstr ""
+
+#: modules/dashboard/templates/index.php:22
+msgid "Importers Activity"
+msgstr ""
+
+#: modules/dashboard/templates/index.php:32
+msgid "Import Statistics"
+msgstr ""
+
+#: modules/ultimatecsvimporter/actions/actions.php:246
+#: modules/mappingtemplate/actions/actions.php:195
+msgid "Reset"
+msgstr ""
+
+#: modules/ultimatecsvimporter/actions/actions.php:645
+#, php-format
+msgid "View &#8220;%s&#8221;"
+msgstr ""
+
+#: modules/ultimatecsvimporter/actions/actions.php:645
+#: modules/ultimatecsvimporter/actions/actions.php:678
+#: modules/ultimatecsvimporter/actions/actions.php:690
+msgid "Web View"
+msgstr ""
+
+#: modules/ultimatecsvimporter/actions/actions.php:645
+#: modules/ultimatecsvimporter/actions/actions.php:678
+#: modules/ultimatecsvimporter/actions/actions.php:690
+msgid "Edit this item"
+msgstr ""
+
+#: modules/ultimatecsvimporter/actions/actions.php:645
+#: modules/ultimatecsvimporter/actions/actions.php:666
+#: modules/ultimatecsvimporter/actions/actions.php:678
+#: modules/ultimatecsvimporter/actions/actions.php:690
+msgid "Admin View"
+msgstr ""
+
+#: modules/ultimatecsvimporter/actions/actions.php:649
+msgid "User Profile"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:41
+msgid "Import Module:"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:70
+msgid "Zip File Info"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:319
+msgid "Fresh Update"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:606
+#: modules/ultimatecsvimporter/templates/index.php:609
+msgid "Choose anyone of the post type:"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:608
+msgid "Choose anyone of the term:"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:611
+msgid "Choose anyone of the taxonomy:"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:625
+msgid "Select a row to map and update import"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:626
+#: modules/ultimatecsvimporter/templates/index.php:730
+#: modules/ultimatecsvimporter/templates/index.php:840
+#: modules/ultimatecsvimporter/templates/index.php:939
+#: modules/ultimatecsvimporter/templates/index.php:1038
+#: modules/ultimatecsvimporter/templates/index.php:1168
+#: modules/ultimatecsvimporter/templates/index.php:1265
+#: modules/ultimatecsvimporter/templates/index.php:1362
+#: modules/ultimatecsvimporter/templates/index.php:1454
+#: modules/ultimatecsvimporter/templates/index.php:1546
+#: modules/ultimatecsvimporter/templates/index.php:1641
+#: modules/ultimatecsvimporter/templates/index.php:1730
+#: modules/ultimatecsvimporter/templates/index.php:1826
+#: modules/mappingtemplate/templates/edit.php:70
+#: modules/mappingtemplate/templates/edit.php:148
+#: modules/mappingtemplate/templates/edit.php:231
+#: modules/mappingtemplate/templates/edit.php:314
+#: modules/mappingtemplate/templates/edit.php:397
+#: modules/mappingtemplate/templates/edit.php:480
+#: modules/mappingtemplate/templates/edit.php:560
+#: modules/mappingtemplate/templates/edit.php:639
+#: modules/mappingtemplate/templates/edit.php:722
+#: modules/mappingtemplate/templates/edit.php:805
+#: modules/mappingtemplate/templates/edit.php:888
+#: modules/mappingtemplate/templates/edit.php:971
+msgid "WP Fields"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:627
+#: modules/ultimatecsvimporter/templates/index.php:731
+#: modules/ultimatecsvimporter/templates/index.php:841
+#: modules/ultimatecsvimporter/templates/index.php:940
+#: modules/ultimatecsvimporter/templates/index.php:1039
+#: modules/ultimatecsvimporter/templates/index.php:1169
+#: modules/ultimatecsvimporter/templates/index.php:1266
+#: modules/ultimatecsvimporter/templates/index.php:1363
+#: modules/ultimatecsvimporter/templates/index.php:1455
+#: modules/ultimatecsvimporter/templates/index.php:1547
+#: modules/ultimatecsvimporter/templates/index.php:1642
+#: modules/ultimatecsvimporter/templates/index.php:1731
+#: modules/ultimatecsvimporter/templates/index.php:1827
+#: modules/mappingtemplate/templates/edit.php:71
+#: modules/mappingtemplate/templates/edit.php:149
+#: modules/mappingtemplate/templates/edit.php:232
+#: modules/mappingtemplate/templates/edit.php:315
+#: modules/mappingtemplate/templates/edit.php:398
+#: modules/mappingtemplate/templates/edit.php:481
+#: modules/mappingtemplate/templates/edit.php:561
+#: modules/mappingtemplate/templates/edit.php:640
+#: modules/mappingtemplate/templates/edit.php:723
+#: modules/mappingtemplate/templates/edit.php:806
+#: modules/mappingtemplate/templates/edit.php:889
+#: modules/mappingtemplate/templates/edit.php:972
+msgid "CSV Header"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:644
+msgid "For roles created using members plugin, the value should be a string in CSV."
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:655
+msgid "publish"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:709
+msgid "Core Custom Fields"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:827
+#: modules/mappingtemplate/templates/edit.php:390
+msgid "CCTM Fields: "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:926
+#: modules/mappingtemplate/templates/edit.php:307
+msgid "TYPES Fields: "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1026
+#: modules/mappingtemplate/templates/edit.php:141
+msgid "ACF CUSTOM Fields: "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1156
+msgid "RF CUSTOM Fields: "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1254
+#: modules/mappingtemplate/templates/edit.php:224
+msgid "PODS Fields: "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1350
+#: modules/mappingtemplate/templates/edit.php:473
+msgid "All-in-One SEO Fields: "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1442
+#: modules/mappingtemplate/templates/edit.php:552
+msgid "YOAST SEO Fields: "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1534
+#: modules/mappingtemplate/templates/edit.php:632
+msgid "WP-Members Fields: "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1630
+#: modules/mappingtemplate/templates/edit.php:964
+msgid "Terms / Taxonomies Fields: "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1814
+#: modules/mappingtemplate/templates/edit.php:798
+msgid "eCommerce Meta Fields: "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1918
+msgid "Do you want to: "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1919
+msgid "Update or "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1920
+msgid "Save this mapping as Template ?"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1926
+msgid "Save this mapping as Template"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1932
+msgid "Mapping Template Name: "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1939
+msgid "Clear"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1940
+msgid "Next >>"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1992
+msgid "Total no of records : "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1993
+msgid "Total no of mapped fields for single record : "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:1994
+msgid "Total no of unmapped fields for a record : "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2048
+msgid "Proceed Import"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2093
+msgid "Import right away"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2094
+msgid "Schedule now"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2122
+msgid "Detect duplicate post content"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2123
+msgid "Detect duplicate post title"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2128
+msgid "Import using product-id"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2129
+msgid "Import using parent-sku"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2133
+msgid "Update using variation-id"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2134
+msgid "Update using variation-sku"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2137
+msgid "No. of posts/rows per server request"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2144
+msgid "Specify the records here"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2148
+msgid "You can set upto"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2148
+msgid "per request"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2156
+msgid "Inline image options"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2159
+msgid "Handle media files in post content body, inline within a csv for each row"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2164
+msgid "Browse"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2212
+msgid "Next"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2219
+msgid "Back"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2220
+msgid "Dry Run Now"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2221
+msgid "Import Now"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2222
+msgid "Terminate Now"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2224
+msgid "Continue Import"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2229
+msgid "Total no of records:"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2230
+msgid "Total no of Mapped: "
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2231
+msgid "Total no of Unmapped:"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2265
+msgid "Summary"
+msgstr ""
+
+#: modules/ultimatecsvimporter/templates/index.php:2287
+msgid "CLICK HERE TO DOWNLOAD LOG"
+msgstr ""
+
+#: modules/settings/templates/index.php:19
+msgid "Settings Saved"
+msgstr ""
+
+#: modules/settings/templates/index.php:32
+msgid "Go to Security and Performance tab for your environment configuration details"
+msgstr ""
+
+#: modules/settings/templates/index.php:39
+#: modules/settings/templates/index.php:47
+msgid "General Settings"
+msgstr ""
+
+#: modules/settings/templates/index.php:52
+#: modules/settings/templates/index.php:210
+msgid "Custom Posts & Taxonomy"
+msgstr ""
+
+#: modules/settings/templates/index.php:57
+#: modules/settings/templates/index.php:249
+msgid "Custom Fields"
+msgstr ""
+
+#: modules/settings/templates/index.php:62
+#: modules/settings/templates/index.php:301
+msgid "Ecommerce Settings"
+msgstr ""
+
+#: modules/settings/templates/index.php:67
+#: modules/settings/templates/index.php:339
+msgid "SEO Settings"
+msgstr ""
+
+#: modules/settings/templates/index.php:72
+#: modules/settings/templates/index.php:368
+msgid "Additional Features"
+msgstr ""
+
+#: modules/settings/templates/index.php:77
+#: modules/settings/templates/index.php:415
+msgid "Database Optimization"
+msgstr ""
+
+#: modules/settings/templates/index.php:82
+#: modules/settings/templates/index.php:569
+msgid "Security and Performance"
+msgstr ""
+
+#: modules/settings/templates/index.php:87
+#: modules/settings/templates/index.php:656
+msgid "Documentation"
+msgstr ""
+
+#: modules/settings/templates/index.php:96
+msgid "Enabled Modules"
+msgstr ""
+
+#: modules/settings/templates/index.php:109
+#: modules/settings/templates/index.php:133
+msgid "Enables to import posts with custompost and customfields."
+msgstr ""
+
+#: modules/settings/templates/index.php:110
+msgid "Enable to import posts with attributes from csv."
+msgstr ""
+
+#: modules/settings/templates/index.php:113
+#: modules/settings/templates/index.php:121
+#: modules/settings/templates/index.php:128
+#: modules/settings/templates/index.php:136
+#: modules/settings/templates/index.php:144
+#: modules/settings/templates/index.php:166
+#: modules/settings/templates/index.php:189
+#: modules/settings/templates/index.php:199
+#: modules/settings/templates/index.php:218
+#: modules/settings/templates/index.php:225
+#: modules/settings/templates/index.php:232
+#: modules/settings/templates/index.php:239
+#: modules/settings/templates/index.php:258
+#: modules/settings/templates/index.php:264
+#: modules/settings/templates/index.php:271
+#: modules/settings/templates/index.php:277
+#: modules/settings/templates/index.php:284
+#: modules/settings/templates/index.php:291
+#: modules/settings/templates/index.php:396
+msgid "Enable"
+msgstr ""
+
+#: modules/settings/templates/index.php:114
+#: modules/settings/templates/index.php:122
+#: modules/settings/templates/index.php:129
+#: modules/settings/templates/index.php:137
+#: modules/settings/templates/index.php:145
+#: modules/settings/templates/index.php:167
+#: modules/settings/templates/index.php:191
+#: modules/settings/templates/index.php:201
+#: modules/settings/templates/index.php:219
+#: modules/settings/templates/index.php:226
+#: modules/settings/templates/index.php:233
+#: modules/settings/templates/index.php:240
+#: modules/settings/templates/index.php:259
+#: modules/settings/templates/index.php:265
+#: modules/settings/templates/index.php:272
+#: modules/settings/templates/index.php:278
+#: modules/settings/templates/index.php:285
+#: modules/settings/templates/index.php:292
+#: modules/settings/templates/index.php:397
+msgid "Disable"
+msgstr ""
+
+#: modules/settings/templates/index.php:118
+msgid "Enables to import pages with custompost and customfields."
+msgstr ""
+
+#: modules/settings/templates/index.php:119
+msgid "Enable to import pages with attributes from csv."
+msgstr ""
+
+#: modules/settings/templates/index.php:126
+msgid "Enable to import users with attributes from csv."
+msgstr ""
+
+#: modules/settings/templates/index.php:134
+msgid "Enable to import comments for post ids from csv."
+msgstr ""
+
+#: modules/settings/templates/index.php:140
+msgid "Custom Post"
+msgstr ""
+
+#: modules/settings/templates/index.php:141
+msgid "Enables to import Customposts."
+msgstr ""
+
+#: modules/settings/templates/index.php:142
+msgid "Enable to import custom posts with attributes from csv<"
+msgstr ""
+
+#: modules/settings/templates/index.php:149
+msgid "Enables to import Custom taxonomy."
+msgstr ""
+
+#: modules/settings/templates/index.php:150
+msgid "Enable to import nested custom taxonomies with description and slug for each from csv"
+msgstr ""
+
+#: modules/settings/templates/index.php:171
+msgid "Enables to import Categories."
+msgstr ""
+
+#: modules/settings/templates/index.php:172
+msgid "Enable to import nested categories with description and slug for each from csv."
+msgstr ""
+
+#: modules/settings/templates/index.php:196
+msgid "Enables to import Customer reviews."
+msgstr ""
+
+#: modules/settings/templates/index.php:197
+msgid "Enable to import customer reviews with attributes from csv."
+msgstr ""
+
+#: modules/settings/templates/index.php:204
+msgid "Note: Supports WordPress Custom Post by default. For Custom Post Type UI plugin, please enable it under Custom Posts & Taxonomy"
+msgstr ""
+
+#: modules/settings/templates/index.php:216
+msgid "Custom Post Type UI"
+msgstr ""
+
+#: modules/settings/templates/index.php:217
+msgid "Import support for Custom Post Type UI data."
+msgstr ""
+
+#: modules/settings/templates/index.php:223
+msgid "Types Custom Posts & Taxonomy"
+msgstr ""
+
+#: modules/settings/templates/index.php:224
+msgid "Import support for Types Custom Post Type and taxonomies data."
+msgstr ""
+
+#: modules/settings/templates/index.php:230
+msgid "CCTM Custom Posts"
+msgstr ""
+
+#: modules/settings/templates/index.php:231
+msgid "Import support for CCTM Custom Posts from csv."
+msgstr ""
+
+#: modules/settings/templates/index.php:237
+msgid "PODS Custom Posts & Taxonomy"
+msgstr ""
+
+#: modules/settings/templates/index.php:238
+msgid "Import support for PODS Custom Posts."
+msgstr ""
+
+#: modules/settings/templates/index.php:250
+msgid "Reset Custom Field"
+msgstr ""
+
+#: modules/settings/templates/index.php:256
+msgid "WP-Members for Users"
+msgstr ""
+
+#: modules/settings/templates/index.php:257
+msgid "Enable to add import support WP-Members user fields."
+msgstr ""
+
+#: modules/settings/templates/index.php:262
+msgid "WP e-Commerce Custom Fields"
+msgstr ""
+
+#: modules/settings/templates/index.php:263
+msgid "Enable to add import support for WP e-Commerce custom fields."
+msgstr ""
+
+#: modules/settings/templates/index.php:268
+msgid "ACF Custom Fields"
+msgstr ""
+
+#: modules/settings/templates/index.php:269
+msgid "Enable to add import support for ACF Custom Fields."
+msgstr ""
+
+#: modules/settings/templates/index.php:275
+msgid "CCTM Custom Fields"
+msgstr ""
+
+#: modules/settings/templates/index.php:276
+msgid "Enable to add import support for CCTM Custom Fields."
+msgstr ""
+
+#: modules/settings/templates/index.php:282
+msgid "Types Custom Fields"
+msgstr ""
+
+#: modules/settings/templates/index.php:283
+msgid "Enable to add import support for Types custom fields."
+msgstr ""
+
+#: modules/settings/templates/index.php:289
+msgid "PODS Custom Fields"
+msgstr ""
+
+#: modules/settings/templates/index.php:290
+msgid "Enable to add import support for PODS custom fields."
+msgstr ""
+
+#: modules/settings/templates/index.php:307
+#: modules/settings/templates/index.php:345
+msgid "None"
+msgstr ""
+
+#: modules/settings/templates/index.php:308
+msgid "Ecommerce import is disabled."
+msgstr ""
+
+#: modules/settings/templates/index.php:313
+msgid "Enable ecommerce import for Eshop."
+msgstr ""
+
+#: modules/settings/templates/index.php:314
+#: modules/settings/templates/index.php:319
+#: modules/settings/templates/index.php:324
+#: modules/settings/templates/index.php:329
+msgid "Disabled"
+msgstr ""
+
+#: modules/settings/templates/index.php:317
+msgid "Marketpress Lite"
+msgstr ""
+
+#: modules/settings/templates/index.php:318
+msgid "Enable ecommerce import for marketpress Lite."
+msgstr ""
+
+#: modules/settings/templates/index.php:323
+msgid "Enable ecommerce import for Woocommerce."
+msgstr ""
+
+#: modules/settings/templates/index.php:327
+msgid "WP e-Commerce"
+msgstr ""
+
+#: modules/settings/templates/index.php:328
+msgid "Enable ecommerce import for WP e-Commerce."
+msgstr ""
+
+#: modules/settings/templates/index.php:346
+msgid "SEO Meta import is disabled."
+msgstr ""
+
+#: modules/settings/templates/index.php:350
+msgid "All-in-one SEO"
+msgstr ""
+
+#: modules/settings/templates/index.php:351
+msgid "Enable All-in-one SEO import."
+msgstr ""
+
+#: modules/settings/templates/index.php:355
+msgid "Yoast SEO"
+msgstr ""
+
+#: modules/settings/templates/index.php:356
+msgid "Enable Wordpress SEO by  Yoast support."
+msgstr ""
+
+#: modules/settings/templates/index.php:374
+msgid "Debug Mode"
+msgstr ""
+
+#: modules/settings/templates/index.php:375
+msgid "You can enable/disable the debug mode."
+msgstr ""
+
+#: modules/settings/templates/index.php:376
+#: modules/settings/templates/index.php:388
+#: modules/settings/templates/index.php:405
+msgid "On"
+msgstr ""
+
+#: modules/settings/templates/index.php:377
+#: modules/settings/templates/index.php:389
+#: modules/settings/templates/index.php:406
+msgid "Off"
+msgstr ""
+
+#: modules/settings/templates/index.php:380
+msgid "Scheduled log mails"
+msgstr ""
+
+#: modules/settings/templates/index.php:381
+msgid "Enable to get scheduled log mails."
+msgstr ""
+
+#: modules/settings/templates/index.php:382
+#: modules/settings/templates/index.php:609
+#: modules/settings/templates/index.php:614
+#: modules/settings/templates/index.php:619
+#: modules/settings/templates/index.php:624
+msgid "Yes"
+msgstr ""
+
+#: modules/settings/templates/index.php:383
+#: modules/settings/templates/index.php:611
+#: modules/settings/templates/index.php:616
+#: modules/settings/templates/index.php:621
+#: modules/settings/templates/index.php:626
+msgid "No"
+msgstr ""
+
+#: modules/settings/templates/index.php:386
+msgid "Drop Table"
+msgstr ""
+
+#: modules/settings/templates/index.php:387
+msgid "If enabled plugin deactivation will remove plugin data, this cannot be restored."
+msgstr ""
+
+#: modules/settings/templates/index.php:392
+msgid "Category Icons"
+msgstr ""
+
+#: modules/settings/templates/index.php:393
+msgid "Enable to import category icons for category."
+msgstr ""
+
+#: modules/settings/templates/index.php:401
+msgid "Woocommerce Custom attribute"
+msgstr ""
+
+#: modules/settings/templates/index.php:402
+msgid "Enables to register woocommrce custom attribute."
+msgstr ""
+
+#: modules/settings/templates/index.php:513
+msgid "Delete all orphaned Post/Page Meta"
+msgstr ""
+
+#: modules/settings/templates/index.php:516
+msgid "Delete all unassigned tags"
+msgstr ""
+
+#: modules/settings/templates/index.php:521
+msgid "Delete all Post/Page revisions"
+msgstr ""
+
+#: modules/settings/templates/index.php:524
+msgid "Delete all auto drafted Post/Page"
+msgstr ""
+
+#: modules/settings/templates/index.php:529
+msgid "Delete all Post/Page in trash"
+msgstr ""
+
+#: modules/settings/templates/index.php:532
+msgid "Delete all Spam Comments"
+msgstr ""
+
+#: modules/settings/templates/index.php:537
+msgid "Delete all Comments in trash"
+msgstr ""
+
+#: modules/settings/templates/index.php:540
+msgid "Delete all Unapproved Comments"
+msgstr ""
+
+#: modules/settings/templates/index.php:545
+msgid "Delete all Pingback Comments"
+msgstr ""
+
+#: modules/settings/templates/index.php:548
+msgid "Delete all Trackback Comments"
+msgstr ""
+
+#: modules/settings/templates/index.php:554
+msgid "Run DB Optimizer"
+msgstr ""
+
+#: modules/settings/templates/index.php:557
+msgid "Database Optimization Log"
+msgstr ""
+
+#: modules/settings/templates/index.php:560
+msgid "NO LOGS YET NOW."
+msgstr ""
+
+#: modules/settings/templates/index.php:574
+msgid "Allow authors/editors to import"
+msgstr ""
+
+#: modules/settings/templates/index.php:575
+msgid "This enables authors/editors to import."
+msgstr ""
+
+#: modules/settings/templates/index.php:577
+msgid "Uncheck"
+msgstr ""
+
+#: modules/settings/templates/index.php:582
+msgid "Minimum required php.ini values (Ini configured values)"
+msgstr ""
+
+#: modules/settings/templates/index.php:585
+msgid "Variables"
+msgstr ""
+
+#: modules/settings/templates/index.php:587
+msgid "System values"
+msgstr ""
+
+#: modules/settings/templates/index.php:589
+msgid "Minimum Requirements"
+msgstr ""
+
+#: modules/settings/templates/index.php:591
+msgid "post_max_size"
+msgstr ""
+
+#: modules/settings/templates/index.php:592
+msgid "auto_append_file"
+msgstr ""
+
+#: modules/settings/templates/index.php:593
+msgid "auto_prepend_file"
+msgstr ""
+
+#: modules/settings/templates/index.php:594
+msgid "upload_max_filesize"
+msgstr ""
+
+#: modules/settings/templates/index.php:595
+msgid "file_uploads"
+msgstr ""
+
+#: modules/settings/templates/index.php:596
+msgid "allow_url_fopen"
+msgstr ""
+
+#: modules/settings/templates/index.php:597
+msgid "max_execution_time"
+msgstr ""
+
+#: modules/settings/templates/index.php:598
+msgid "max_input_time"
+msgstr ""
+
+#: modules/settings/templates/index.php:599
+msgid "max_input_vars"
+msgstr ""
+
+#: modules/settings/templates/index.php:600
+msgid "memory_limit"
+msgstr ""
+
+#: modules/settings/templates/index.php:602
+msgid "Required to enable/disable Loaders, Extentions and modules:"
+msgstr ""
+
+#: modules/settings/templates/index.php:608
+msgid "IonCube Loader"
+msgstr ""
+
+#: modules/settings/templates/index.php:618
+msgid "Curl"
+msgstr ""
+
+#: modules/settings/templates/index.php:623
+msgid "Mod Security"
+msgstr ""
+
+#: modules/settings/templates/index.php:633
+msgid "htaccess settings:"
+msgstr ""
+
+#: modules/settings/templates/index.php:634
+msgid "Locate the .htaccess file in Apache web root,if not create a new file named .htaccess and add the following:"
+msgstr ""
+
+#: modules/settings/templates/index.php:635
+msgid "SecFilterEngine Off SecFilterScanPOST Off"
+msgstr ""
+
+#: modules/settings/templates/index.php:635
+msgid "</IfModule>"
+msgstr ""
+
+#: modules/settings/templates/index.php:642
+msgid "Debug Information:"
+msgstr ""
+
+#: modules/settings/templates/index.php:644
+msgid "WordPress Version"
+msgstr ""
+
+#: modules/settings/templates/index.php:645
+msgid "PHP Version"
+msgstr ""
+
+#: modules/settings/templates/index.php:646
+msgid "MySQL Version"
+msgstr ""
+
+#: modules/settings/templates/index.php:647
+msgid "Server SoftWare"
+msgstr ""
+
+#: modules/settings/templates/index.php:647
+msgid "Your User Agent"
+msgstr ""
+
+#: modules/settings/templates/index.php:648
+msgid "WPDB Prefix"
+msgstr ""
+
+#: modules/settings/templates/index.php:649
+msgid "WP Multisite Mode"
+msgstr ""
+
+#: modules/settings/templates/index.php:650
+msgid "WP Memory Limit"
+msgstr ""
+
+#: modules/settings/templates/index.php:663
+msgid "Smackcoders Guidelines"
+msgstr ""
+
+#: modules/settings/templates/index.php:664
+msgid "Development News"
+msgstr ""
+
+#: modules/settings/templates/index.php:665
+msgid "Whats New?"
+msgstr ""
+
+#: modules/settings/templates/index.php:666
+msgid " Documentation"
+msgstr ""
+
+#: modules/settings/templates/index.php:667
+msgid "Tutorials"
+msgstr ""
+
+#: modules/settings/templates/index.php:668
+msgid "Youtube Channel"
+msgstr ""
+
+#: modules/settings/templates/index.php:669
+msgid " Other Plugins"
+msgstr ""
+
+#: modules/support/templates/index.php:11
+msgid "Mail Sent Successfully"
+msgstr ""
+
+#: modules/support/templates/index.php:13
+msgid "Failed to send mail. Try Again"
+msgstr ""
+
+#: modules/support/templates/index.php:28
+msgid "Contact Us"
+msgstr ""
+
+#: modules/support/templates/index.php:37
+msgid "Issue Tracker"
+msgstr ""
+
+#: modules/support/templates/index.php:41
+#: modules/support/templates/index.php:42
+msgid "First name"
+msgstr ""
+
+#: modules/support/templates/index.php:43
+#: modules/support/templates/index.php:44
+msgid "Last name"
+msgstr ""
+
+#: modules/support/templates/index.php:50
+msgid "Related To"
+msgstr ""
+
+#: modules/support/templates/index.php:54
+msgid "Feature Request"
+msgstr ""
+
+#: modules/support/templates/index.php:55
+msgid "Customization"
+msgstr ""
+
+#: modules/support/templates/index.php:60
+msgid "Message"
+msgstr ""
+
+#: modules/support/templates/index.php:78
+msgid "Share Your Love"
+msgstr ""
+
+#: modules/support/templates/index.php:84
+msgid "Rate Our Plugin"
+msgstr ""
+
+#: modules/support/templates/index.php:98
+msgid "Social Share"
+msgstr ""
+
+#: modules/mappingtemplate/templates/edit.php:881
+msgid "Core Custom Fields: "
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:77
+msgid "Import with post status"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:80
+msgid "Status as in CSV"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:93
+msgid "Select the status for the post  imported, if not defined within your csv .E.g.publish"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:97
+msgid "Password"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:98
+msgid "Password for all post"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:157
+msgid "Make sure you have enable the PDO extensions in your environment before activate the plugin!"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:183
+msgid "Every 10 minutes"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1592
+msgid "Social All in One Bot"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1593
+msgid "Google SEO Author Snippet"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1594
+msgid "WP Advanced Importer"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1595
+msgid "WP Tiger"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1596
+msgid "WP Sugar"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1597
+msgid "WP Zoho crm Sync"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1598
+msgid "CRM Ecommerce Integration"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1600
+msgid "WP Tiger Pro"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1601
+msgid "WordPress Sugar Pro"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1602
+msgid "VTiger 6 Magento Sync"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1603
+msgid "VTiger 6 Mailchimp"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1604
+msgid "Vtiger QuickBooks"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1605
+msgid "Vtiger Xero Sync"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1606
+msgid "Vtiger HR and Payroll"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1607
+msgid "HR Payroll"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1620
+msgid "Home"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1620
+msgid "Wiki"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1621
+msgid "Videos"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1622
+msgid "Sample Files"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1628
+#: includes/WPImporter_includes_helper.php:1636
+msgid "Get Old Versions"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1628
+#: includes/WPImporter_includes_helper.php:1632
+msgid "Click here to Get some useful links"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1636
+msgid "Current Version: "
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1639
+msgid "Plugin By"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1639
+msgid "Smackcoders"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1654
+msgid "Upload File"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1660
+msgid "Click Here To Process Zip"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1666
+msgid "You can also drag and drop files here"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1672
+msgid "Upload using FTP"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1675
+msgid "FTP"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1676
+msgid "SFTP"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1682
+msgid "ftp username"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1683
+msgid "ftp password"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1691
+msgid "Upload from external link"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1698
+msgid "Choose file in the server"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1779
+msgid "Choose File To Import"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1786
+msgid "Submit"
+msgstr ""
+
+#: includes/WPImporter_includes_helper.php:1798
+msgid "Import"
+msgstr ""
+
+#: includes/schedulehelper.php:33
+msgid "Schedule Date"
+msgstr ""
+
+#: includes/schedulehelper.php:35
+msgid "Schedule Time"
+msgstr ""
+
+#: includes/schedulehelper.php:39
+msgid "Schedule Frequency"
+msgstr ""
+
+#: includes/schedulehelper.php:42
+msgid "OneTime"
+msgstr ""
+
+#: includes/schedulehelper.php:43
+msgid "Daily"
+msgstr ""
+
+#: includes/schedulehelper.php:44
+msgid "Weekly"
+msgstr ""
+
+#: includes/schedulehelper.php:45
+msgid "Monthly"
+msgstr ""
+
+#: includes/schedulehelper.php:46
+msgid "Hourly"
+msgstr ""
+
+#: includes/schedulehelper.php:53
+msgid "Import Specific Records Only"
+msgstr ""
+
+#: includes/schedulehelper.php:54
+msgid "Please specify the records here"
+msgstr ""
+
+#: includes/schedulehelper.php:59
+msgid "Schedule"
+msgstr ""
+
+#: includes/schedulehelper.php:85
+msgid "Select Post Type"
+msgstr ""
+
+#: includes/schedulehelper.php:87
+#: includes/schedulehelper.php:130
+#: includes/schedulehelper.php:141
+msgid "---Select---"
+msgstr ""
+
+#: includes/schedulehelper.php:128
+msgid "Select Term Type"
+msgstr ""
+
+#: includes/schedulehelper.php:139
+msgid "Select Taxonomy"
+msgstr ""
+
